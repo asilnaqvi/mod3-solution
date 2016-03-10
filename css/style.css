@@ -1,0 +1,55 @@
+body {
+	font-size:16px;
+	font-family:"Comic Sans MS";
+	color:#000000;
+}
+.navbar-default .navbar-brand{
+	color:#000;
+	font-weight:900;
+}
+.navbar{
+	background-color:#ccc;
+	border:2px solid #000000;
+	border-radius:0;
+}
+.row span{
+	text-align:center;
+}
+.row .tile{
+	background-color:#ccc;
+	padding:10px;
+}
+.tile p{
+	text-align:center;
+	font-weight:900;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  
+  border: 1px solid #000;
+
+}
+.navbar-header button.navbar-toggle{
+clear: both;
+  margin-top: -30px;
+}
+#nav-list {
+  margin-top:0;
+   margin-bottom:0;
+}
+#nav-list a {
+  color: #000;
+   background: #fff;
+  text-align: center;
+  border:1px solid #000;
+}
+#nav-list a:hover {
+  background: #ccc;
+}
+
+@media (max-width:768px){
+	#main-content{
+		width:80%;
+		margin:0 auto;
+
+	}
+}
