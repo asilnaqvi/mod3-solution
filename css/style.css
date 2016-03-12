@@ -12,10 +12,8 @@ body {
 	border:2px solid #000000;
 	border-radius:0;
 }
-.row span{
-	text-align:center;
-}
-.row .tile{
+
+.tile{
 	background-color:#ccc;
 	padding:10px;
 }
